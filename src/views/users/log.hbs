@@ -1,0 +1,14 @@
+<!--Seccion registro-->
+<div class="text-center logContainer">
+  <div class="text-white logTitle pb-2">
+    <h1>Registra tu Cuenta</h1>
+  </div>
+  <div class="fields-Container">
+    <form action="/log" method="POST">
+          <div class="form-group"><input type="text" name="user" class="form-controls" placeholder="Nombre" value="{{user}}"></div>
+          <div class="form-group"><input type="password" name="password" class="form-controls" placeholder="contraseña" value="{{password}}"></div>
+          <div class="form-group"><input type="password" name="password_c" class="form-controls" placeholder="confirmar contraseña" value="{{password_c}}"></div>
+          <div class="form-group"><button type="submit" class="btn btn-primary btn-block">aceptar</button></div>
+        </form>
+  </div>
+</div>
